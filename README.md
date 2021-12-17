@@ -1,3 +1,6 @@
+Application Description:
+It is a responsive user interface made using javascript library react js. It displays the weather information like temperature, windspeed, humidity, etc of the current location in which you're situated in.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

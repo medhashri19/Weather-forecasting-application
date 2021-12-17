@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.main{
+    width: 700px;
+    border-radius: 15px;
+    background-color: #01579b !important;
+}
+
+body {
+ background-size: 1710px 800px !important;
+ background-image:  url(./images/background.jpg) !important;
+ display: grid !important;
+ place-items: center !important;
+}
+.header{
+    background-color: rgba(0,0,0,0.5) !important;
+    color: #F5F5F5 !important;
+    padding: 11px;
+    font-size: 28px;
+    border-width: 28px;
+    height: 44px;
+    font-family: 'Recursive', sans-serif;
+}
+/*.card:hover .gradient{
+    opacity: 1 !important;
+}*/
+.cardmain{
+    background-color: rgba(0,0,0,0.3) !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.9) !important;
+    height: 450px !important;
+    width: 560px !important;
+    /*background-image: linear-gradient(0deg, #ac958c, transparent) !important;*/
+    transition: opacity 0.5s;
+    align-self: center !important;
+
+}
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.date{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 0px !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Recursive', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset{
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.description{
+    padding: 15px;
+    color: rgb(247, 235, 235) !important;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon{
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+}
+
